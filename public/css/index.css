@@ -1,0 +1,169 @@
+body{
+    line-height:1.4;
+    color:#333;
+    font-family:arial;
+    font-size: 12px;
+    background:white;
+}
+input,textarea,select{
+    font-size:12px;
+    font-size:100%;    
+    font-family:arial;
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
+/*image with no-border*/
+a img{border:0;}
+img{border:0;}
+a{text-decoration: none}
+
+.wrapper {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.input {
+    padding: 15px;
+    width: 100%;
+    height: 170px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #979797;
+}
+
+.btn-arrow {
+    float: right;
+    margin-top: 22px;
+    padding: 0 0 0 14px;
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+a.btn.btn-radius {
+    border-radius: 4px;
+}
+
+a.btn {
+    color: #fff;
+    background-color: #488fce;
+}
+
+.main-title {
+    width: 100%;
+    margin-top: 110px;
+}
+
+.main-title .title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #565656;
+}
+
+.words dd, .word-mean dd {
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 3px;    
+}
+
+.analysis-result {
+    float: left;
+    width: 65%;
+}
+
+.analysis-word {
+    float: left;
+    width: 28%;
+    margin-left: 5%;
+    margin-top: 0;
+}
+
+.analysis-word p {
+    margin-bottom: 22px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #979797;
+}
+
+.v {
+    background-color: #ffcb99;   
+}
+
+.t {
+    background-color: #c7aee7;   
+}
+
+.p {
+    background-color: #99cc67;   
+}
+
+.ns {
+    background-color: #d07f7f;   
+}
+
+.u {
+    background-color: #4dd9e6;   
+}
+
+.n {
+    background-color: #488fce;   
+}
+
+.w {
+    background-color: #ccc;   
+}
+
+.nz {
+    background-color: #8bc3f5;   
+}
+
+.d {
+    background-color: #ffcccb;   
+}
+
+.m {
+    background-color: #986699;   
+}
+
+.q {
+    background-color: #ff9899;   
+}
+
+.f {
+    background-color: #c9aaca;   
+}
+
+.nx {
+    background-color: #96dbf8;   
+}
+
+.c {
+    background-color: #8ea4de;   
+}
+
+.a {
+    background-color: #67ccaa;   
+}
+
+.r {
+    background-color: #9acccd;   
+}
+
+.ud {
+    background-color: #4dd9e6;
+}
+
+.wd {
+    background-color: #ccc;
+}

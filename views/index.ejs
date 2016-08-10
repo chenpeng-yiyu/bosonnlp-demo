@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bosonnlp-demo</title>
+	<link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+	<div class="page {{pageClass}}" ng-view style="width:100%;height: 100%"></div>
+
+	<script type="text/ng-template" id="bosonnlp-demo">
+		<div class="wrapper">
+			<div class="input-box">
+				<textarea id="txt-analysis" ng-model="analysisText" class="input"></textarea>
+				<a href="javascript:;" ng-click="toAnalysis()" class="btn btn-arrow btn-radius"><span class="icon"></span>提交文本</a>
+			</div>
+			<div class="main-title">
+				<span class="dot-line-gray"></span>
+				<span class="title">分析结果</span>
+			</div>
+			<div id="overview-analysis">
+				<div class="">
+					<div class="title"></div>
+				</div>
+				<div class="analysis-result">
+					<dl class="words">
+						<dd ng-repeat="data in analysis" ng-class="data[0]" ng-bind="data[1]"></dd>
+					</dl>
+				</div>
+				<div class="analysis-word">
+					<p>词性类别图示:</p>
+					<dl class="word-mean">
+						<dd ng-repeat="wordMean in wordMeans" ng-bind="wordMean[1]" ng-class="wordMean[0]"></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</script>
+
+	<script src="/js/lib/require.js" data-main="/js/main.js"></script>
+</body>
+</html>
