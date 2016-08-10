@@ -8,7 +8,7 @@ define([], function() {
 	config.special_char_conv = '0'; //特殊字符转换选项
 	config.analysisURL = config.baseUrl + '/tag/analysis?space_mode=' + config.space_mode + '&oov_level=' + config.oov_level + '&t2s=' + config.t2s + '&&special_char_conv=' + config.special_char_conv;
 	
-	config.proxyUrl = 'http://127.0.0.1:3000/proxy';  //请求转发服务器地址
+	config.proxyUrl = '/proxy';  //请求转发服务器地址
 	
 	config.wordMean = {
 		'v': '动词',
