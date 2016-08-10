@@ -96,7 +96,7 @@ a.btn {
     color: #979797;
 }
 
-.v {
+.v, .vd, .vshi, .vyou, .vi, .vl {
     background-color: #ffcb99;   
 }
 
@@ -112,15 +112,15 @@ a.btn {
     background-color: #d07f7f;   
 }
 
-.u {
+.u, .uzhe, .ule, .uguo, .ude, .usuo, .udeng, .uyy, .udh, .uzhi, .ulian{
     background-color: #4dd9e6;   
 }
 
-.n {
+.n, .nr, .nr1, .ns, .nt, .nz, .nl {
     background-color: #488fce;   
 }
 
-.w {
+.w, .wkz, .wky, .wyz, .wyy, .wj, .ww, .wt, .wd, .wf, .wn, .wm, .ws, .wp, .wb, .wh {
     background-color: #ccc;   
 }
 
@@ -152,7 +152,7 @@ a.btn {
     background-color: #8ea4de;   
 }
 
-.a {
+.a, .ad, .an, .al {
     background-color: #67ccaa;   
 }
 
@@ -164,6 +164,14 @@ a.btn {
     background-color: #4dd9e6;
 }
 
-.wd {
-    background-color: #ccc;
+.z {
+    background-color: #f3e988;
+}
+
+.y {
+    background-color: #f48363;
+}
+
+.s {
+    background-color: #cee887;
 }
